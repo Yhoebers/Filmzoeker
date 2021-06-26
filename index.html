@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="movieList.js"></script>
+    <script defer src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Filmzoeker</h1>
+      <nav>
+        <ul id="btn_filter">
+          <li>
+            <label
+              ><input type="radio" id="nieuw" name="radio" value="nieuw" />
+              Filter 1: Nieuwste Films</label
+            >
+          </li>
+          <li>
+            <label
+              ><input
+                type="radio"
+                id="avengers"
+                name="radio"
+                value="avengers"
+              />
+              Filter 2: Avengers Films</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="radio" id="xmen" name="radio" value="xmen" /> Filter
+              3: X-Men Films</label
+            >
+          </li>
+          <li>
+            <label
+              ><input
+                type="radio"
+                id="princess"
+                name="radio"
+                value="princess"
+              />
+              Filter 4: Princess Films</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="radio" id="batman" name="radio" value="batman" />
+              Filter 5: Batman Films</label
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <ul id="movieList"></ul>
+    </div>
+  </body>
+</html>
